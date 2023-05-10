@@ -8,13 +8,13 @@ async function bootstrap() {
     app.enableCors();
     app.setGlobalPrefix('api/v1');
     const options = new swagger_1.DocumentBuilder()
-        .setTitle("LA RECETTE API")
+        .setTitle("MINISTERIO API")
         .setDescription("API rest para la recipe en mongodb")
         .setVersion("1.0")
         .build();
     const document = swagger_1.SwaggerModule.createDocument(app, options);
     swagger_1.SwaggerModule.setup("docs", app, document);
-    const PORT = (process.env.PORT || 4000);
+    const PORT = (process.env.PORT || 3000);
     await app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 }
 bootstrap();
