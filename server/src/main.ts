@@ -9,7 +9,7 @@ async function bootstrap() {
   app.setGlobalPrefix('api/v1')
 
   const options = new DocumentBuilder()
-  .setTitle("LA RECETTE API")
+  .setTitle("MINISTERIO API")
   .setDescription("API rest para la recipe en mongodb")
   .setVersion("1.0")
   .build()
