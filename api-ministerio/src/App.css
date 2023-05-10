@@ -1,0 +1,264 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+*/
+
+
+.nav{
+  /* background: linear-gradient(rgb(17, 208, 192), rgb(2, 126, 187)); */
+  align-items: center;
+  
+  background: linear-gradient(183deg, rgb(254, 254, 255) 0%, 
+  rgb(60, 106, 206) 90%);
+}
+
+.logo:hover {
+  box-shadow: 2px 1px 41px 5px white;
+}
+
+.imagen:hover{
+
+  transform: scale(1.5)
+}
+
+.footer{
+  background-color: rgb(57, 57, 57);
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+.argument{
+  display: flex;
+  align-items: center;
+}
+.separacion{
+  color: white;
+  padding: 5px;
+
+}
+
+.main {
+
+  /* height: 35rem; */
+  /* height: 100vh; */
+  position: absolute;
+  height: 100vh;
+}
+.mai-button{
+  margin-top: 20rem;
+}
+.button-main{
+text-align: center;
+}
+
+.button{
+  width: 20rem;
+  height: 5rem;
+justify-items: center;
+margin-top: 20%;
+margin-left: 45%;
+}
+
+
+.social{
+  text-align: center;
+  
+   justify-content: center;
+  
+ 
+ }
+
+ .button-delete{
+  display: flex;
+  justify-content: space-around;
+ }
+
+@media (max-width: 800px){
+  .image-home{
+    height: 37rem
+  }  
+    .main{
+
+   height: 40rem;
+  }
+}
+
+
+
+
+
+.footer{
+  margin-top: 40px;
+ }
+
+ .logo-footer{
+ width: 50px;
+ margin-bottom: 20px;
+ 
+ }
+
+ .image-home{
+  filter:  brightness(190%);
+  width: 100%;
+ }
+ .politica, .término{
+  display: flex;
+     text-decoration: none;
+   color: white;
+   font-size: 10px;
+   cursor: pointer;
+ }
+
+ @media (min-width: 800px){
+  .logo-footer{
+    width: 100px;
+     margin-bottom: 50px; 
+    }
+    .argument{
+      margin-left: 900px;
+    }
+}
+ /* .p{
+  margin-top: 199px;
+  padding-top: 5px;
+ } */
+
+
+
+ .imagen-detail{
+  display: flex;
+  margin: 0 auto;
+  background-color: aqua;
+  border: solid black
+ }
+ .button-detail{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+ }
+
+ /* CARRUCEL*/
+
+ .carousel-m{ 
+  width: 300px;
+  margin: 0 auto;
+ }
+ .carosul-ba{
+  background: linear-gradient(183deg, rgb(116, 123, 151) 0%, 
+rgba(195, 195, 193, 0.353) 100%);
+ }
+
+.carousel-m{
+  width: 350px;
+}
+
+
+ .imagen-carousel1{
+  width: 240px;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  filter:  brightness(95%)
+ 
+   }
+  .tex-image {
+    z-index: n-1;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+  }
+
+
+
+ @media (min-width: 800px){
+  .carousel-m{
+   
+    width: 50%;
+    margin: 0 auto;
+ 
+  }
+  .imagen-carousel1{
+    width:85%;
+    height: 550px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    }   
+ 
+}
+
+
+
+
+.navbegin{
+  align-items: center;
+  height: 850px;
+  background-image: url(../src/assets/proposito.jpeg); 
+  background-repeat: no-repeat;
+  background-size: 220vh 195vh;
+  filter:  brightness(90%)
+}
+
+ @media (max-width: 800px){
+ .navbegin{
+  align-items: center;
+  height: 500px;
+  background-image: url(../src/assets/proposito.jpeg); 
+  background-repeat: no-repeat;
+  background-size: 50vh 50vh;
+ }
+}
+
+.tex-begin1{
+  margin-left: 20px;
+  width: 90%;
+  text-align: justify;
+}
+.navadoracion{
+  align-items: center;
+  height: 850px;
+  background-image: url(../src/assets/adoracion.jpeg); 
+  background-repeat: no-repeat;
+  background-size: 220vh 195vh;
+  filter:  brightness(90%)
+}
+@media (max-width: 800px){
+  .navadoracion{
+   align-items: center;
+   height: 500px;
+   background-image: url(../src/assets/adoracion.jpeg); 
+   background-repeat: no-repeat;
+   background-size: 50vh 50vh;
+  }
+ }
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
