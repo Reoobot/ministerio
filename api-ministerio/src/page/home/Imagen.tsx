@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react'
 import { getImageRequest } from '../../services/imageService'
-import Navbar from '../../components/navbar/Navbar';
 import { useParams } from 'react-router-dom';
 import CardImagen from '../../components/cardimagen/CardImagen';
-import UploadContainer from '../../components/uploadcontainer/UploadContainer';
 import Footer from '../../components/footer/Footer';
 
 
