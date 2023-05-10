@@ -77,7 +77,7 @@ export class ImagesController {
     async uploadFile(@UploadedFile()file:Express.Multer.File){
         console.log(file)
         if(!file){
-            throw new BadRequestException('file is not an image')
+            throw new BadRequestException('file is not an image', { cause: new Error(), description: 'Some error description' })
         } else{
             const response = {
                 file: `http://localhost:3000/api/v1/images/${file.filename}`
